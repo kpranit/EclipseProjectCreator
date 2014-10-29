@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.eclipse.ui.newWizards">
+		<category id="org.creator.eclprojctc" name="Custom Workspace"/>
+	      <wizard
+	      		category="org.creator.eclprojctc" class="org.creator.eclprojctc.wizards.ProjectNewWizard"
+            	preferredPerspectives="org.eclipse.jdt.ui.JavaPerspective, org.eclipse.jdt.ui.JavaBrowsingPerspective, org.eclipse.jdt.ui.JavaHierarchyPerspective"
+	            finalPerspective="org.eclipse.jdt.ui.JavaPerspective"
+	            icon="icons/epclogo-small.png"
+	            id="org.creator.eclprojctc.wizards.new.custom"
+	            name="Custom Java Project">
+	      </wizard>
+ 	</extension>
+ </plugin>
